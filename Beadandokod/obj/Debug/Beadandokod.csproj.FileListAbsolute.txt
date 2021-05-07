@@ -1,0 +1,16 @@
+C:\Users\Bencze\Documents\repos\Beadando2021\Beadandokod\Beadandokod\bin\Debug\Beadandokod.exe.config
+C:\Users\Bencze\Documents\repos\Beadando2021\Beadandokod\Beadandokod\bin\Debug\Beadandokod.xml
+C:\Users\Bencze\Documents\repos\Beadando2021\Beadandokod\Beadandokod\bin\Debug\Beadandokod.exe
+C:\Users\Bencze\Documents\repos\Beadando2021\Beadandokod\Beadandokod\bin\Debug\Beadandokod.pdb
+C:\Users\Bencze\Documents\repos\Beadando2021\Beadandokod\Beadandokod\obj\Debug\Beadandokod.csprojAssemblyReference.cache
+C:\Users\Bencze\Documents\repos\Beadando2021\Beadandokod\Beadandokod\obj\Debug\MainWindow.g.cs
+C:\Users\Bencze\Documents\repos\Beadando2021\Beadandokod\Beadandokod\obj\Debug\App.g.cs
+C:\Users\Bencze\Documents\repos\Beadando2021\Beadandokod\Beadandokod\obj\Debug\Beadandokod_MarkupCompile.cache
+C:\Users\Bencze\Documents\repos\Beadando2021\Beadandokod\Beadandokod\obj\Debug\Beadandokod_MarkupCompile.lref
+C:\Users\Bencze\Documents\repos\Beadando2021\Beadandokod\Beadandokod\obj\Debug\MainWindow.baml
+C:\Users\Bencze\Documents\repos\Beadando2021\Beadandokod\Beadandokod\obj\Debug\Beadandokod.g.resources
+C:\Users\Bencze\Documents\repos\Beadando2021\Beadandokod\Beadandokod\obj\Debug\Beadandokod.Properties.Resources.resources
+C:\Users\Bencze\Documents\repos\Beadando2021\Beadandokod\Beadandokod\obj\Debug\Beadandokod.csproj.GenerateResource.cache
+C:\Users\Bencze\Documents\repos\Beadando2021\Beadandokod\Beadandokod\obj\Debug\Beadandokod.csproj.CoreCompileInputs.cache
+C:\Users\Bencze\Documents\repos\Beadando2021\Beadandokod\Beadandokod\obj\Debug\Beadandokod.exe
+C:\Users\Bencze\Documents\repos\Beadando2021\Beadandokod\Beadandokod\obj\Debug\Beadandokod.pdb

@@ -1,0 +1,68 @@
+﻿<Window x:Class="Beadandokod.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Beadandokod"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="800" FontFamily="Arial">
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Column="1" Grid.Row="1" Text="Számla 1" Grid.ColumnSpan="2"/>
+        <TextBlock Grid.Column="1" Grid.Row="2" Text="Számla tulajdonos: "/>
+        <TextBox Grid.Column="2" Grid.Row="2" x:Name="TulajNev1" Width="200" Text="Beta" IsReadOnly="True"/>
+        <TextBlock Grid.Column="1" Grid.Row="3" Text="Számla egyenlege: "/>
+        <TextBox Grid.Column="2" Grid.Row="3" x:Name="SzamlaEgyenleg1" Width="200" Text="2500" IsReadOnly="True"/>
+        <TextBlock Grid.Column="3" Grid.Row="3" Text="Ft"/>
+
+        <TextBlock Grid.Column="1" Grid.Row="5" Text="Beviteli mező: "/>
+        <TextBox Grid.Column="2" Grid.Row="5" x:Name="BeviteliMezo1" Width="200"/>
+        <TextBlock Grid.Column="3" Grid.Row="5" Text="Ft"/>
+        <WrapPanel Grid.Column="1" Grid.Row="6" Grid.ColumnSpan="2" >
+            <Button Content="Feltöltés" Margin="5,5,5,0" Click="feltoltes1_Click" x:Name="feltoltes1" Padding="10,0,10,0"/>
+            <Button Content="Utalás" Margin="5,5,5,0" x:Name="utalas1" Click="utalas1_Click" Padding="10,0,10,0"/>
+            <Button Content="Kivét" Margin="5,5,5,0" x:Name="kivet1" Click="kivet1_Click" Padding="10,0,10,0"/>
+            <Button Content="Tulaj név váltás" Margin="5,5,5,0" x:Name="tulajvaltas1" Click="tulajvaltas1_Click" Padding="10,0,10,0"/>
+        </WrapPanel>
+
+        <TextBlock Grid.Column="5" Grid.Row="1" Text="Számla 2"/>
+        <TextBlock Grid.Column="5" Grid.Row="2" Text="Számla tulajdonos: "/>
+        <TextBox Grid.Column="6" Grid.Row="2" x:Name="TulajNev2" Width="200" Text="Alfa" IsReadOnly="True"/>
+        <TextBlock Grid.Column="5" Grid.Row="3" Text="Számla egyenlege: "/>
+        <TextBox Grid.Column="6" Grid.Row="3" x:Name="SzamlaEgyenleg2" Width="200" Text="3500" IsReadOnly="True"/>
+        <TextBlock Grid.Column="7" Grid.Row="3" Text="Ft"/>
+
+        <TextBlock Grid.Column="5" Grid.Row="5" Text="Beviteli mező: " Height="16" VerticalAlignment="Top"/>
+        <TextBox Grid.Column="6" Grid.Row="5" x:Name="BeviteliMezo2" Width="200"/>
+        <TextBlock Grid.Column="7" Grid.Row="5" Text="Ft"/>
+        <WrapPanel Grid.Column="5" Grid.Row="6" Grid.ColumnSpan="2" >
+            <Button Content="Feltöltés" Margin="5,5,5,0" Click="feltoltes2_Click" Padding="10,0,10,0"/>
+            <Button Content="Utalás" Margin="5,5,5,0" x:Name="utalas2" Click="utalas2_Click" Padding="10,0,10,0"/>
+            <Button Content="Kivét" Margin="5,5,5,0" x:Name="kivet2" Click="kivet2_Click" Padding="10,0,10,0"/>
+            <Button Content="Tulaj név váltás" Margin="5,5,5,0" x:Name="tulajvaltas2" Click="tulajvaltas2_Click" Padding="10,0,10,0"/>
+        </WrapPanel>
+
+    </Grid>
+</Window>
